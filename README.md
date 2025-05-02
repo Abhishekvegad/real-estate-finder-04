@@ -159,22 +159,6 @@ We welcome contributions! Here’s how to get started:
 If you're new to open source, start [here](https://opensource.guide/) and [learn to make a PR](https://opensource.guide/how-to-contribute/).
 
 ---
-
-## 📄 License
-
-Distributed under the **MIT License**. See `LICENSE.txt` for more details.
-
----
-
-## 📬 Contact
-
-**Kudzai P. Matizirofa**
-📧 [kudzaiprichard@gmail.com](mailto:kudzaiprichard@gmail.com)
-🔗 [LinkedIn](https://linkedin.com/in/kudzai-prichard)
-🌐 [GitHub Repo](https://github.com/kudzaiprichard/spring-realestate-api)
-
----
-
 ## 🙏 Acknowledgments
 
 Special thanks to these resources:
