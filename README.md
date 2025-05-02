@@ -1,173 +1,91 @@
----
+# Real Estate Marketplace Application
 
-# 🏡 Real Estate Backend API
+This repository contains the code for a comprehensive Real Estate Marketplace Application, built using Angular for the frontend and Spring Boot for the backend. The live website is accessible [here](https://real-estate-marketplace-pi.vercel.app/), and it has undergone more than 100 commits.
 
-A RESTful API backend for a real estate marketplace connecting property owners, agents, and potential buyers or renters.
+## Features
 
----
+- **Browse and filter real estate listings:** Explore a diverse range of property listings.
+- **Search for properties:** Utilize various criteria to find properties tailored to your needs.
+- **User authentication and authorization:** Securely manage access to the application.
+- **Add new properties:** Easily contribute new properties to the platform.
+- **Edit and delete existing property listings:** Maintain accurate and up-to-date information.
+- **User profiles and related information:** Displays user profiles.
+- **Detailed property information:** Shows detailed information about a specific property.
+- **Image upload for property listings:** Handles the uploading of images for property listings.
+- **Alerts and notifications:** Handles and displays alerts or notifications to users.
+- **Image carousel:** Implements a carousel for showcasing multiple images.
+- **Loading spinner:** Indicates loading or processing status with a spinner.
 
-## 📚 Table of Contents
+## Technologies Used
 
-* [About The Project](#about-the-project)
-* [Project Scope](#project-scope)
-* [Project Design](#project-design)
-* [Architecture](#architecture)
-* [Endpoint Design](#endpoint-design)
-* [UML Diagram](#uml-diagram)
-* [Built With](#built-with)
-* [Getting Started](#getting-started)
-* [Contributing](#contributing)
-* [License](#license)
-* [Contact](#contact)
-* [Acknowledgments](#acknowledgments)
+### Front End:
 
----
+- Angular
+- TypeScript
+- TailwindCSS (CSS framework for styling)
+- Swiper (JavaScript slider library)
 
-## 📌 About The Project
+### Back End:
 
-This project is a backend service for a real estate marketplace application. It facilitates:
+- Spring Boot
+- Spring Security
+- Spring Data JPA
 
-* Property listings by agents and homeowners
-* Browsing, filtering, and contacting estate agents by customers
-* Central management of estate advertisements
+### Database:
 
----
+- MySQL Database
 
-## 🎯 Project Scope
+## Pages
 
-* Property owners and agents can **register**, **list properties**, and **set prices**.
-* Customers can:
+- **Home page**
+- **Search page**
+- **Property details page**
+- **Profile page**
+- **Login page**
+- **Sign up page**
+- **Add property page**
+- **Update property page**
 
-  * **Search** for properties
-  * View **photos**, **plans**, and **descriptions**
-  * **Filter** listings based on preferences
-  * **Contact** agents directly through each advertisement
+## Screenshots
 
----
-
-## 🧠 Project Design
-
-The system is designed with scalability, flexibility, and third-party integration in mind, making it ideal for mobile, web, and microservice-based systems.
-
----
-
-## 🏗️ Architecture
-
-The project follows **REST API architecture**, enabling easy communication over HTTP using standardized requests and responses.
-
-**Architecture Diagram**
-*(Insert image here)*
-
-Key characteristics:
-
-* Lightweight and scalable
-* Easy integration with services built in any language
+### Hero Section
+<img src="https://github.com/Aymen-Nacer/Sorting-Algorithms-Visualizer/assets/67188835/e6f0c16d-0aa4-4f1f-9d3c-e26f0d934dc8" alt="Hero Section" width="800" height="auto">
 
 ---
 
-## 🔗 Endpoint Design
-
-A full list of available RESTful API endpoints and their supported HTTP methods:
-
-**(Insert screenshot or table here)**
+### Home Page
+<img src="https://github.com/Aymen-Nacer/Sorting-Algorithms-Visualizer/assets/67188835/3c1a8bb3-02c3-4676-b087-153a5601664a" alt="Home Page" width="800" height="auto">
 
 ---
 
-## 🧩 UML Diagram
-
-This diagram illustrates object relationships in the system.
-
-**Base UML Design**
-*(Insert UML diagram here)*
-
-**Extended UML Diagram**
-*(Insert extended UML diagram here – takes precedence on data conflicts)*
+### Search Page
+<img src="https://github.com/Aymen-Nacer/Sorting-Algorithms-Visualizer/assets/67188835/19943110-c12f-443f-aec8-56c043e4a2ce" alt="Search Page" width="800" height="auto">
 
 ---
 
-## 🛠 Built With
-
-* **Java Spring Boot**
-* **MySQL**
-* **JWT (JSON Web Tokens)**
-* **Postman** (for testing)
+### Property Details
+<img src="https://github.com/Aymen-Nacer/Sorting-Algorithms-Visualizer/assets/67188835/a2d4d9a5-ae6e-479e-8ea7-458429446fd4" alt="Property Details" width="800" height="auto">
 
 ---
 
-## 🚀 Getting Started
-
-### ✅ Prerequisites
-
-Make sure the following software is installed:
-
-* Java JDK 21 + JRE
-* MySQL
-* Maven
-* Your preferred IDE (IntelliJ, VS Code, etc.)
-
-### 📦 Installation
-
-1. **Clone the repository**
-
-   ```bash
-   git clone https://github.com/kudzaiprichard/spring-realestate-api
-   ```
-
-2. **Open in your IDE**
-
-3. **Download dependencies**
-
-   * Maven will handle all necessary package installations
-
-4. **Run the app**
+### Profile
+<img src="https://github.com/Aymen-Nacer/Sorting-Algorithms-Visualizer/assets/67188835/057bcf9a-f3d5-4d95-ac0b-79fb6ddd67ef" alt="Profile" width="800" height="auto">
 
 ---
 
-## 🤝 Contributing
-
-We welcome contributions! Here’s how to get started:
-
-### 🛠 Contribution Process
-
-1. Fork the repository
-2. Create a feature branch
-
-   ```bash
-   git checkout -b feature/AmazingFeature
-   ```
-3. Commit your changes
-
-   ```bash
-   git commit -m 'Add some AmazingFeature'
-   ```
-4. Push to GitHub
-
-   ```bash
-   git push origin feature/AmazingFeature
-   ```
-5. Open a pull request
+### Sign Up
+<img src="https://github.com/Aymen-Nacer/Sorting-Algorithms-Visualizer/assets/67188835/76fcc96e-6663-48f1-8ed4-905016dc6d15" alt="Sign Up" width="800" height="auto">
 
 ---
 
-### 🔥 What You Can Do
-
-* Report bugs
-* Request features
-* Submit pull requests
-* Star ⭐ the repo to show support!
-
-If you're new to open source, start [here](https://opensource.guide/) and [learn to make a PR](https://opensource.guide/how-to-contribute/).
+### Login
+<img src="https://github.com/Aymen-Nacer/Sorting-Algorithms-Visualizer/assets/67188835/c3628363-761e-4c65-8b33-c23b1bc3d40f" alt="Login" width="800" height="auto">
 
 ---
-## 🙏 Acknowledgments
 
-Special thanks to these resources:
-
-* [Choose an Open Source License](https://choosealicense.com)
-* [REST API Concepts](https://restfulapi.net)
-* [JWT Guide](https://jwt.io)
-* [Spring Boot Documentation](https://spring.io/projects/spring-boot)
-* [GitHub Pages](https://pages.github.com)
-* [MySQL Documentation](https://dev.mysql.com)
+### Add Property Page
+<img src="https://github.com/Aymen-Nacer/Sorting-Algorithms-Visualizer/assets/67188835/8885cca3-4c37-4ffa-bd2a-4eb5ab1c1b5e" alt="Add Property Page" width="800" height="auto">
 
 ---
+
+
